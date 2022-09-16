@@ -11,7 +11,7 @@ from Rose.core.caching import ADMIN_CACHE, admin_cache_reload
 
 DEV_USERS = "1271155361"
 OWNER_ID = OWNER_ID
-SUDO_USERS = SUDO_USERS
+SUDO_USERS = DEV_USERS
 BOT = "@TheArchangelBot"
 COMMAND = "/"
 SUDO_LEVEL = set(SUDO_USERS + DEV_USERS + OWNER_ID)
