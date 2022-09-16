@@ -43,7 +43,7 @@ class var(object):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+MSG My Owner Wiki @TheOnlyMrLucifer.
 
 **All commands can be used with the following: / **"""
         #Rose start menu conections(split commands on start)
@@ -109,7 +109,7 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
         home_keyboard_pm = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="Add Me To Your Chat 🎉",url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=new")
+                                InlineKeyboardButton(text="Add Me To Your Chat 🎉",url=f"http://t.me/TheArchangelBot?startgroup=new")
                         ],
                         [
                                 InlineKeyboardButton(text="About ✨",callback_data="_about"),
