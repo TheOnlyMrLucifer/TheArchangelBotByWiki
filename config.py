@@ -40,10 +40,8 @@ class var(object):
         help_text = """
 **Welcome to help menu**
 
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-MSG My Owner Wiki @TheOnlyMrLucifer.
+This Bot Is Made With Love And Passion
+For The Gorgeous Girl Bad B Si @badbsi
 
 **All commands can be used with the following: / **"""
         #Rose start menu conections(split commands on start)
@@ -90,15 +88,15 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
         about_buttons = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="Owner",url=f"https://t.me/TheOnlyMrLucifer"),
-                                InlineKeyboardButton(text="The Tele News R Us 📢",url=f"https://t.me/TheTeleNewsRuS")
+                                InlineKeyboardButton(text="Owner",url=f"https://t.me/babsi"),
+                                InlineKeyboardButton(text="Model Blacklist",url=f"https://t.me/modelblocklist")
                         ], 
                         [ 
-                                InlineKeyboardButton(text="⚒ Queens And Kings Promo", url="https://t.me/+EHrG6E0U3pwyMmRk"),
-                                InlineKeyboardButton(text="Onwner", url="https://t.me/TheOnlyMrLucifer")
+                                InlineKeyboardButton(text="Assistant Barbie", url="https://t.me/assistantbarbie"),
+                                InlineKeyboardButton(text="Barbie Promo", url="https://t.me/barbiepromo")
                         ], 
                         [
-                                InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://youtu.be/ZUvFSU8W7VA")
+                                InlineKeyboardButton(text="Creator Groups", url="https://t.me/creatorgroups")
                         ],
                         [
                                 InlineKeyboardButton("« Back", callback_data='startcq')
