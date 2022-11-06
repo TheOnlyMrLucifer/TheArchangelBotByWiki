@@ -46,7 +46,7 @@ async def delete_service(_, message):
 __MODULE__ = formatting
 __HELP__ = f"""
 **Formatting**
-The Archangel Bot supports a large number of formatting options to make
+Bad B Si supports a large number of formatting options to make
 your messages more expressive. Take a look!
 """
 __helpbtns__ = ([[InlineKeyboardButton('Markdown ', callback_data="_mdown"),InlineKeyboardButton('Fillings', callback_data='_fillings')],[InlineKeyboardButton('Random Content', callback_data="_random")]])
