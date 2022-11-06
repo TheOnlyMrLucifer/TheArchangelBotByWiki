@@ -112,7 +112,7 @@ class Greetings(MongoDB):
                 "cleangoodbye": False,
                 "cleanservice": False,
                 "goodbye_text": 'Sad to see you leaving {first}.\nTake Care!',
-                "welcome_text": 'Hey {first}, welcome to {chatname}! Bot Made By Wiki',
+                "welcome_text": 'Hey {first}, welcome to {chatname}!',
                 "welcome": False,
                 "goodbye": False,
             }
