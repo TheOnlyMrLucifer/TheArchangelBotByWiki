@@ -88,7 +88,7 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
         about_buttons = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="Owner",url=f"https://t.me/babsi"),
+                                InlineKeyboardButton(text="Owner",url=f"https://t.me/badbsi"),
                                 InlineKeyboardButton(text="Model Blacklist",url=f"https://t.me/modelblocklist")
                         ], 
                         [ 
@@ -118,7 +118,7 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
                         ],
                         [
                                 InlineKeyboardButton(text="Owner",url=f"https://t.me/badbsi"),
-                                InlineKeyboardButton(text="Model Blacklist",url=f"https://t.me/modelblacklist")
+                                InlineKeyboardButton(text="Model Blacklist",url=f"https://t.me/modelblocklist")
                         ]
                 ]
 )
