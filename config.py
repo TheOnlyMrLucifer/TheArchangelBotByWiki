@@ -107,7 +107,7 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
         home_keyboard_pm = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="Add Me To Your Chat 🎉",url=f"http://t.me/TheArchangelBot?startgroup=new")
+                                InlineKeyboardButton(text="Add Me To Your Chat 🎉",url=f"http://t.me/BadBSiBot?startgroup=new")
                         ],
                         [
                                 InlineKeyboardButton(text="About ✨",callback_data="_about"),
@@ -117,8 +117,8 @@ An  advanced telegram Group management Bot For helpYou Protect Your Groups & Sui
                                 InlineKeyboardButton(text="Help Menu ⚒",callback_data="bot_commands")
                         ],
                         [
-                                InlineKeyboardButton(text="Owner",url=f"https://t.me/TheOnlyMrLucifer"),
-                                InlineKeyboardButton(text="The Tele News R Us 📢",url=f"https://t.me/TheTeleNewsRuS")
+                                InlineKeyboardButton(text="Owner",url=f"https://t.me/badbsi"),
+                                InlineKeyboardButton(text="Model Blacklist",url=f"https://t.me/modelblacklist")
                         ]
                 ]
 )
