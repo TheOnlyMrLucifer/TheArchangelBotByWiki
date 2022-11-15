@@ -216,7 +216,7 @@ async def local_notes(_, m: Message):
     msg_id = m.reply_to_message.message_id if m.reply_to_message else m.message_id
     curr_pref = db_settings.get_privatenotes(grp_id)
     if curr_pref:
-        pm_kb = ikb([[("All Notes",f"https://t.me/TheArchangelBot?start=notes_{grp_id}","url")]])
+        pm_kb = ikb([[("All Notes",f"https://t.me/BadBSiBot?start=notes_{grp_id}","url")]])
         return await m.reply_text("Click on the button below to get notes!",reply_markup=pm_kb)
     rply = f"Notes in <b>{title}</b>:\n"
     for x in getnotes:
