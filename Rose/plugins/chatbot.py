@@ -59,16 +59,16 @@ async def szcbot(_, message: Message):
            lang = tr.translate(message.text).src
            trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
            text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
-           affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=TheArchangel&ownername=@TheOnlyMrLucifer&user={chat_id}")
+           affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=BadBsi&ownername=@BadBSi&user={chat_id}")
            textmsg = (affiliateplus.json()["message"])
            if "Affiliate+" in textmsg:
-               textmsg = textmsg.replace("Bot", "The Archangel Bot")
+               textmsg = textmsg.replace("Bot", "Bad B Si")
            if "Lebyy_Dev" in textmsg:
-               textmsg = textmsg.replace("Owner", "Wiki")
+               textmsg = textmsg.replace("Owner", "Bad B Si")
            if "God Brando" in textmsg:
-               textmsg = textmsg.replace("God Brando", f"{message.from_user.first_name}")
+               textmsg = textmsg.replace("Assistant", f"{message.from_user.first_name}")
            if "seeker" in textmsg:
-               textmsg = textmsg.replace("seeker", f"wow")
+               textmsg = textmsg.replace("Barbie", f"wow")
            msg = tr.translate(textmsg, src='en', dest=lang)
            await message.reply_text(msg.text)
         except Exception:
@@ -79,9 +79,9 @@ async def szcbot(_, message: Message):
            safeone = requests.get(f"https://api.safone.tech/chatbot?message={text}&bot_name=Rose&bot_master=Supun&user_id={user_id}")
            textmsg = (safeone.json()["answer"])
            if "Affiliate+" in textmsg:
-               textmsg = textmsg.replace("Bot", "The Archangel Bot")
+               textmsg = textmsg.replace("Bot", "Bad B Si")
            if "[Safone]" in textmsg:
-               textmsg = textmsg.replace("[Wiki]", "@TheOnlyMrLucifer")
+               textmsg = textmsg.replace("Bad B Si", "@badbsi")
            msg = tr.translate(textmsg, src='en', dest=lang)
            await message.reply_text(msg.text)
 
@@ -99,7 +99,7 @@ AI based chatbot allows rose to talk and provides a more interactive group chat 
 
 
 **Language Support**
-The Archangel Bot AI chatbot support almost all languages in world .
+Bad B Si AI chatbot support almost all languages in world .
 Powered By ; `googletrans==3.1.0a0`
 """
 
