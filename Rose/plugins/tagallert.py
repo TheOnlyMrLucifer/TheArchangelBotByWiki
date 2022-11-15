@@ -102,7 +102,7 @@ Rose will notify it to you via private message after enabling tag alerts
 - /tagalert `off` : Turn tag alert off
 
 **Example:**
-If you are mentioned in a group The Archangel Bot will tell you who mentioned you, 
+If you are mentioned in a group Bad B Si Bot will tell you who mentioned you, 
 message that you are tagged in and which group is that.
 """
     
