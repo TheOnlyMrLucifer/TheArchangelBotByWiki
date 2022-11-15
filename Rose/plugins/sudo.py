@@ -129,7 +129,7 @@ async def broadcast_message(_, message):
 💔 Deactivated users: <b>{deleted}</b><br>
 🤷‍♂️ Chat NotFound : <b>{Invalid}</b><br>
 😶 Unknown Error : <b>{failed}</b><br><br>
-🤝 Thank you very much for advertising with us ! <b>if you satisfied with our advertising please be kind to review us </b>💫 If you give us a good review, we will surely broadcast your post in our group DM @TheOnlyMrLucifer 😍<br><br>
+🤝 Thank you very much for advertising with us ! <b>if you satisfied with our advertising please be kind to review us </b>💫 If you give us a good review, we will surely broadcast your post in our group DM @BadBSi 😍<br><br>
 --------------------------------------------<br>
 🤗 Have a Nice Day !!!
 """,)
