@@ -1,5 +1,5 @@
 {
-    "name": "The Archangel Bot By Wiki",
+    "name": "@BadBSiBot",
     "description": "szrose is an all in one group management bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️",
     "repository": "https://github.com/TheOnlyMrLucifer/TheArchangelBotByWiki",
     "logo": "https://telegra.ph/file/b9b3e76c4b930a6ec223e.jpg",
@@ -11,8 +11,8 @@
     "Group-Manager-bot",
     "pyrogram"
     ],
-    "website": "http://t.me/TheArchangelBot",
-    "success_url": "http://t.me/TheArchangelBot",
+    "website": "http://t.me/BadBSiBot",
+    "success_url": "http://t.me/BadBSiBot",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
