@@ -16,8 +16,8 @@ async def ForceSub(bot: Client, event: Message):
         try:
            gh = await bot.send_message(chat_id=event.chat.id,text=f"""
 <b>Hey </b>{event.from_user.mention} !,
-<b>You are Free user so join my creator News channel before using me !Click join now button and join Wiki News channel.</b>
-<i>Don't forget to give</i><code>/start</code><i>command again.</i>""",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now ↗️", url="https://t.me/TheTeleNewsRuS")]]),disable_web_page_preview=True)
+<b>You are Free user so join my assistant channel before using me !Click join now button and join Wiki News channel.</b>
+<i>Don't forget to give</i><code>/start</code><i>command again.</i>""",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now ↗️", url="https://t.me/assistantbarbie")]]),disable_web_page_preview=True)
            await asyncio.sleep(10)
            await gh.delete()
            return 400
@@ -26,5 +26,5 @@ async def ForceSub(bot: Client, event: Message):
            fix_ = await ForceSub(bot, event)
            return fix_
     except Exception as err:
-        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Owner: https://t.me/TheOnlyMrLucifer")
+        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Owner: https://t.me/BadBSi")
         return 200  
