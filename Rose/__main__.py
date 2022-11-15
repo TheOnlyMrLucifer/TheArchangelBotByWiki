@@ -80,8 +80,8 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2022-2023 by @TheOnlyMrLucifer  | 
-|          Greetings from Wiki   :)           |
+|         (C) 2022-2023 by @BadBSi  | 
+|          Greetings from BadBSi :)           |
 |_____________________________________________| """)
     await idle()
     await aiohttpsession.close()
